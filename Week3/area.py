@@ -17,7 +17,7 @@ def calculate_area(w, h):
 
 
 def display_area(w, h, area):
-    print("A box that is {:.0f} units wide and {:.1f} units high".format(w, h))
+    print("A box that is {:d} units wide and {:.1f} units high".format(w, h))
     print("has an area of {:.2f} square units.".format(int(area)))
 
 
